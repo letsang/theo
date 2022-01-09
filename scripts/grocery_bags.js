@@ -1,21 +1,23 @@
 var img_arr = [
-    "2000itgirl.jpg",
+    //"2000itgirl.jpg",
     // "bahay.jpg",
-    "ballclub.jpg",
-    "bleecker.jpg",
-    "directorX.jpg",
-    "dwight.jpg",
-    "fluugamemask.jpg",
-    "grinding.jpg",
-    "groovy.jpg",
-    "helloparis.jpg",
-    "icy.jpg",
-    "kidstudio.jpg",
-    "michaelscott.jpg",
-    "nigo.jpg",
-    "seanbrown.jpg",
-    "wwe.jpg",
-    "LIFE-DESIGN-LOGO.jpg"
+    //"ballclub.jpg",
+    //"bleecker.jpg",
+    //"directorX.jpg",
+    //"dwight.jpg",
+    //"fluugamemask.jpg",
+    //"grinding.jpg",
+    //"groovy.jpg",
+    //"helloparis.jpg",
+    //"icy.jpg",
+    //"kidstudio.jpg",
+    //"michaelscott.jpg",
+    //"nigo.jpg",
+    //"seanbrown.jpg",
+    //"wwe.jpg",
+    //"LIFE-DESIGN-LOGO.jpg"
+"karill_front.png",
+"centurion_front.png"
 ];
 
 // var test = document.getElementById("product-component-1631056444677");

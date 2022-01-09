@@ -100,7 +100,7 @@ for (var i = 0; i < img_arr.length; i++) {
 
     var ball = Ball.create("transparent", Math.random() * 5, Math.random() * 5);
     ball.draw(Math.random() * 100, 100);
-    ball.element.src = "./media/grocery_bags/" + img_arr[i];
+    ball.element.src = "./media/" + img_arr[i];
     ball.element.setAttribute("id", img_arr[i]);
 }
 

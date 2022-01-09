@@ -49,7 +49,7 @@ var Ball = {
         newBall.dy = dy;
     
         newBall.width = 150;
-        newBall.height = 150;
+        newBall.height = 400;
 
         newBall.element = document.createElement("img");
 

@@ -53,12 +53,12 @@ var Ball = {
 
         newBall.element = document.createElement("img");
 
-    //    newBall.element.style.width = newBall.width + 'px';
+        newBall.element.style.width = newBall.width + 'px';
         newBall.element.style.height = newBall.height + 'px';
 
         newBall.element.className += ' ball';
 
-    //    newBall.width = parseInt(newBall.element.style.width);
+        newBall.width = parseInt(newBall.element.style.width);
         newBall.height = parseInt(newBall.element.style.height);
         canvas.element.appendChild(newBall.element);
 
@@ -103,7 +103,7 @@ for (var i = 0; i < img_arr.length; i++) {
     var ball = Ball.create("transparent", Math.random() * 5, Math.random() * 5);
     ball.draw(Math.random() * 100, 100);
     ball.element.src = "./media/" + img_arr[i];
-//    ball.element.setAttribute("id", img_arr[i]);
+    ball.element.setAttribute("id", img_arr[i]);
 }
 
 setInterval(function() {

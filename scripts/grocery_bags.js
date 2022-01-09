@@ -53,12 +53,12 @@ var Ball = {
 
         newBall.element = document.createElement("img");
 
-        newBall.element.style.width = newBall.width + 'px';
+    //    newBall.element.style.width = newBall.width + 'px';
         newBall.element.style.height = newBall.height + 'px';
 
         newBall.element.className += ' ball';
 
-        newBall.width = parseInt(newBall.element.style.width);
+    //    newBall.width = parseInt(newBall.element.style.width);
         newBall.height = parseInt(newBall.element.style.height);
         canvas.element.appendChild(newBall.element);
 
